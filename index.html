@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Trip Planner</title>
+</head>
+<body>      
+    <div id="main">
+        <video autoplay loop muted class="back-video">
+            <source src="./videos/photogirls.mp4" type="video/mp4">
+        </video>
+        <div class="nav">
+            <p><span>T</span>ravel</p>
+            <div class="components">
+                <a href="#main">Home</a>
+                <a href="#book">Book</a>
+                <a href="#package">Packages</a>
+                <a href="#services">Services</a>
+                <a href="#gallary">Gallery</a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>ADVENTURE IS WORTHWHILE</h1>
+            <h2>Discover New Places With Us, Adventure Awaits</h2>
+            <a>Explore</a>
+        </div>
+        <div class="slider">
+           <span data-src="./videos/photogirls.mp4" class="vid-btn active"></span>
+           <span data-src="./videos/beach.mp4" class="vid-btn"></span>
+           <span data-src="./videos/House.mp4" class="vid-btn"></span>
+           <span data-src="./videos/Road.mp4" class="vid-btn"></span>
+        </div>
+    </div>
+    <div id="book">
+        <pre class="heading">
+            <span>B</span><span>O</span><span>O</span><span>K</span>  <span>N</span><span>O</span><span>W</span>
+        </pre>
+        <div class="book-body">
+            <div class="book-img">
+                <img src="./images/booking-img.png" alt="booking-img">
+            </div>
+            <div class="book-content">
+                <form action="#">
+                    <p>Where To</p>
+                    <input type="text" placeholder="Search Places">
+                    <p>How Many</p>
+                    <input type="number" placeholder="number of guests">
+                    <p>Arrivals</p>
+                    <input type="date">
+                    <p>Leaving</p>
+                    <input type="date">
+                    <br>
+                    <button>Book Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="package">
+        <pre class="heading">
+            <span>P</span><span>A</span><span>C</span><span>K</span><span>A</span><span>G</span><span>E</span><span>S</span>
+        </pre>
+        <div class="pkg-box">
+            <div class="box">
+                <img src="./images/pkg-1.jpg" alt="Mumbai">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Mumbai TajMahal Tour <br> Package with offer</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/pkg-2.jpg" alt="Shimla">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Shimla Munnar Tour <br> Package with offer</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/pkg-3.jpg" alt="Hampi">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Hampi Bijapur Tour <br> Package with offer</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/pkg-4.jpg" alt="Kerala">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Kerala Munnar Tour <br> Package with Thekkady</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/pkg-5.jpg" alt="Rajasthan">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Rajasthan Camel Tour <br> Package with offer</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/pkg-6.jpg" alt="Manali">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Manali Munnar Tour <br> Package with skydive</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/pkg-7.jpg" alt="Jaipur">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Jaipur Awesome Tour <br> Package with offer</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/pkg-8.jpg" alt="Andaman">
+                <div class="pkg-content">
+                    <p id="stay">8 Days / 7 Nights</p>
+                    <h3> <i class="ri-map-pin-fill"></i> Andaman island Tour <br> Package with offer</h3>
+                    <div class="offer">
+                       <p style="text-decoration: line-through; color: rgb(135, 122, 122); font-weight: 600;">₹23,000</p>
+                       <span>8% off</span>
+                    </div>
+                    <p><span style="font-size:1.5vw;font-weight: 600;">₹21,000</span>  per adult on twin sharing</p>
+                    <button>Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <pre class="heading">
+            <span>S</span><span>E</span><span>R</span><span>V</span><span>I</span><span>C</span><span>E</span><span>S</span>
+        </pre>
+        <div class="s-content">
+            <div class="s-box">
+                <i class="ri-hotel-fill"></i>
+                <h3>Affordable Hotels</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Eligendi, vitae aut expedita fugiat ullam hic optio, veritatis consequatur sint tempora laudantium amet eaque rem, itaque debitis nesciunt nemo accusamus cupiditate</p>
+            </div>
+            <div class="s-box">
+                <i class="ri-restaurant-fill"></i>
+                <h3>Food And Drinks</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Eligendi, vitae aut expedita fugiat ullam hic optio, veritatis consequatur sint tempora laudantium amet eaque rem, itaque debitis nesciunt nemo accusamus cupiditate</p>
+            </div>
+            <div class="s-box">
+                <i class="ri-shield-user-fill"></i>
+                <h3>Safety Guide</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Eligendi, vitae aut expedita fugiat ullam hic optio, veritatis consequatur sint tempora laudantium amet eaque rem, itaque debitis nesciunt nemo accusamus cupiditate</p>
+            </div>
+            <div class="s-box">
+                <i class="ri-earth-fill"></i>
+                <h3>Around The World</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Eligendi, vitae aut expedita fugiat ullam hic optio, veritatis consequatur sint tempora laudantium amet eaque rem, itaque debitis nesciunt nemo accusamus cupiditate</p>
+            </div>
+            <div class="s-box">
+                <i class="ri-flight-takeoff-fill"></i>
+                <h3>Fastest Travel</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Eligendi, vitae aut expedita fugiat ullam hic optio, veritatis consequatur sint tempora laudantium amet eaque rem, itaque debitis nesciunt nemo accusamus cupiditate</p>
+            </div>
+            <div class="s-box">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>Adventures</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Eligendi, vitae aut expedita fugiat ullam hic optio, veritatis consequatur sint tempora laudantium amet eaque rem, itaque debitis nesciunt nemo accusamus cupiditate</p>
+            </div>
+        </div>
+    </div>
+    <div id="gallary">
+        <pre class="heading">
+            <span>G</span><span>A</span><span>L</span><span>L</span><span>A</span><span>R</span><span>Y</span>
+        </pre>
+        <div class="g-box">
+            <div class="part1">
+                <img src="./images/g-1.jpg" alt="Travel-bus">
+            </div>
+            <div class="part2">
+                <div class="g-content">
+                    <i class="ri-earth-fill"></i>
+                    <h3>Passionate Travel</h3>
+                    <p>Fuel your passion for adventure and discover new horizons</p>
+                </div>    
+                <img src="./images/g-2.jpg" alt="beach">
+                <img src="./images/g-3.jpg" alt="tree">  
+                <div class="g-content">
+                    <i class="ri-book-open-line"></i>
+                    <h3>Beautiful Places</h3>
+                    <p>Uncover the world's most breathtalkingly beautiful places</p>
+                </div>
+            </div>
+            <div class="part3">
+                <img src="./images/g-4.jpg" alt="girl">
+                <img src="./images/g-5.jpg" alt="bus">
+            </div>
+            <div class="part4">
+                <img src="./images/g-6.jpg" alt="girl">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="sub-footer">
+            <div class="link">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                 Impedit totam repellendus quia amet mollitia nam neque quaerat quae fugit blanditiis non maiores quisquam</p>
+            </div>
+            <div class="link">
+                <h3>Branch Locations</h3>
+                <ul>
+                    <li>India</li>
+                    <li>USA</li>
+                    <li>Paris</li>
+                    <li>Japan</li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#book">Book</a></li>
+                    <li><a href="#package">Packages</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallary">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Keep In Touch</h3>
+                <i class="fa-brands fa-youtube icon"></i>
+                <i class="fa-brands fa-square-facebook icon"></i>
+                <i class="fa-brands fa-twitter icon"></i>
+                <i class="fa-brands fa-square-instagram icon"></i>
+                <div class="sub-div">
+                  <p>100% ORIGINAL<span style="font-weight: normal; color: rgb(196, 188, 188);"> guarantee for all products</span></p>
+                </div>
+            </div>
+            <div class="link">
+                <h3>Customer Polices</h3>
+                <UL>
+                    <li>Contact Us</li>
+                    <li>FAQ</li>
+                    <li>Tearms of Use</li>
+                    <li>Privacy Polices</li>
+                    <li>T & C</li>
+                </UL>
+            </div>
+        
+        </div>
+        <hr>
+        <p id="footer-para">Created By <span style="color: rgb(48, 216, 19);">Sangeeta Pujari</span> | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
