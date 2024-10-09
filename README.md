@@ -7,6 +7,7 @@
 * Services<br>
 * Gallery
 <br>
+Project live at : https://sangeeta-cmd.github.io/Trip-Planner/
 <hr>
 <b>Preview of The Site</b><br>
 
