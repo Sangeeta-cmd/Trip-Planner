@@ -40,11 +40,11 @@ html,body{
 .nav p span{
     color:rgb(14, 65, 97);
 }
-.menu{
+/* .menu{
     height: 200px;
     width: 100%;
     background-color: #b0aeae;
-}
+} */
 
 .components{
     display: flex;
@@ -106,7 +106,7 @@ html,body{
     height: 5vh;
     width: 12vw;
     position: absolute;
-    top: 35vw;left: 200px;
+    top: 35vw;left: 650px;
     border-radius: 5rem;
     background: rgba(0, 0, 0,.7);
     border: 1px solid black;
