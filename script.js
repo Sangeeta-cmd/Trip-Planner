@@ -1,4 +1,6 @@
 let vidBtn = document.querySelectorAll(".vid-btn");
+
+
 vidBtn.forEach(btn =>{
     btn.addEventListener("click", ()=>{
         document.querySelector(".slider .active").classList.remove('active');
